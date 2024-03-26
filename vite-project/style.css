@@ -24,5 +24,9 @@ display: flex;
   font-weight: bold;
 }
 
+img {
+  max-width: 35%;
+  height: auto;
+}
 
 
