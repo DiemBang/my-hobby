@@ -1,5 +1,5 @@
 html {
-  background: url("assets/5685020.jpg") no-repeat center center fixed;
+  background: url("assets/5685020.jpg") no-repeat center calc(50% + 60px) fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,7 +39,7 @@ body {
 .profile-photo {
   width: 50%;
   height: auto;
-  padding: 5px;
+  padding-top: 20px;
 }
 
 img {
