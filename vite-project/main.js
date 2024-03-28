@@ -30,23 +30,28 @@ let aboutLink = document.getElementById("aboutLink");
 let travelLink = document.getElementById("travelLink");
 let galleryLink = document.getElementById("galleryLink");
 let aboutPage = document.getElementById("aboutPage");
+let travelPage = document.getElementById("travelPage");
 let galleryPage = document.getElementById("galleryPage");
 
 aboutLink.addEventListener("click", function (event) {
   event.preventDefault();
   aboutPage.classList.remove("hidden");
+  travelPage.classList.add("hidden");
   galleryPage.classList.add("hidden");
 });
 
 travelLink.addEventListener("click", function (event) {
   event.preventDefault();
+  travelPage.classList.remove("hidden");
   aboutPage.classList.add("hidden");
+  galleryPage.classList.add("hidden");
 });
 
 galleryLink.addEventListener("click", function (event) {
   event.preventDefault();
-  aboutPage.classList.add("hidden");
   galleryPage.classList.remove("hidden");
+  aboutPage.classList.add("hidden");
+  travelPage.classList.add("hidden");
   galleryPage.innerHTML = `
   <h2 style="text-align: center">My Travel Gallery</h2>
 
