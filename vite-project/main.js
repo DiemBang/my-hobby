@@ -83,6 +83,11 @@ galleryLink.addEventListener("click", function (event) {
           <img src="/assets/slideshow/kyotobreakfast.JPG"  />
         </div>
 
+        <div class="mySlides">
+          <div class="numbertext">7 / 7</div>
+          <img src="/assets/slideshow/venicebeach.jpeg"  />
+        </div>
+
         <a class="prev">❮</a>
         <a class="next">❯</a>
 
@@ -97,7 +102,7 @@ galleryLink.addEventListener("click", function (event) {
               src="/assets/slideshow/brooklyn.jpeg"
               style="width: 100%"
               onclick="currentSlide(1)"
-              alt="View from Brooklyn"
+              alt="Hello (Manhattan) from the other side!"
             />
           </div>
           <div class="column">
@@ -143,6 +148,15 @@ galleryLink.addEventListener("click", function (event) {
               style="width: 100%"
               onclick="currentSlide(6)"
               alt="I can have Japanese breakfast EVERY DAY for the rest of my life."
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="/assets/slideshow/venicebeach.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="One of my favourite spots in LA. The houses here are dreamy."
             />
           </div>
         </div>
