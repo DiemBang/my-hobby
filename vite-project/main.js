@@ -47,6 +47,7 @@ travelLink.addEventListener("click", function (event) {
 galleryLink.addEventListener("click", function (event) {
   event.preventDefault();
   aboutPage.classList.add("hidden");
+  galleryPage.classList.remove("hidden");
   galleryPage.innerHTML = `
   <h2 style="text-align: center">My Travel Gallery</h2>
 
