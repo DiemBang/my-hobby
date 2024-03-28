@@ -37,6 +37,7 @@ let galleryPage = document.getElementById("galleryPage");
 aboutLink.addEventListener("click", function (event) {
   event.preventDefault();
   aboutPage.classList.remove("hidden");
+  galleryPage.classList.add("hidden");
 });
 
 travelLink.addEventListener("click", function (event) {
