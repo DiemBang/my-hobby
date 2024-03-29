@@ -57,53 +57,63 @@ galleryLink.addEventListener("click", function (event) {
 
       <div class="container">
         <div class="mySlides">
-          <div class="numbertext">1 / 10</div>
+          <div class="numbertext">1 / 12</div>
           <img src="/assets/slideshow/brooklyn.jpeg" />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">2 / 10</div>
+          <div class="numbertext">2 / 12</div>
           <img src="/assets/slideshow/kyotostreetfood.jpg" />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">3 / 10</div>
+          <div class="numbertext">3 / 12</div>
           <img src="/assets/slideshow/naradeers.jpg"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">4 / 10</div>
+          <div class="numbertext">4 / 12</div>
           <img src="/assets/slideshow/kinosakicrab.JPG"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">5 / 10</div>
+          <div class="numbertext">5 / 12</div>
           <img src="/assets/slideshow/kyotoautumn.JPG"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">6 / 10</div>
+          <div class="numbertext">6 / 12</div>
           <img src="/assets/slideshow/kyotobreakfast.JPG"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">7 / 10</div>
+          <div class="numbertext">7 / 12</div>
           <img src="/assets/slideshow/venicebeach.jpeg"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">10 / 10</div>
+          <div class="numbertext">12 / 12</div>
           <img src="/assets/slideshow/ninhbinh.jpeg"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">9 / 10</div>
+          <div class="numbertext">9 / 12</div>
           <img src="/assets/slideshow/osakanight.jpg"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">10 / 10</div>
+          <div class="numbertext">12 / 12</div>
           <img src="/assets/slideshow/osakasushi.jpg"  />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">11 / 12</div>
+          <img src="/assets/slideshow/sanfran.jpeg"  />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">12 / 12</div>
+          <img src="/assets/slideshow/studioghibli.jpg"  />
         </div>
 
         <a class="prev">❮</a>
@@ -118,7 +128,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/brooklyn.jpeg"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(1)"
               alt="Hello (Manhattan) from the other side!"
             />
@@ -127,7 +137,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotostreetfood.jpg"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(2)"
               alt="Street food in Japan is a must. These takoyakis were indulged in Kyoto."
             />
@@ -136,7 +146,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/naradeers.jpg"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(3)"
               alt="Nara Park is home to hundreds of freely roaming deer."
             />
@@ -145,7 +155,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kinosakicrab.JPG"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(4)"
               alt="The famous hot spring town Kinosaki in west Japan is also known for the crabs."
             />
@@ -154,7 +164,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotoautumn.JPG"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(5)"
               alt="Autumn in Kyoto is magical. "
             />
@@ -163,7 +173,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotobreakfast.JPG"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(6)"
               alt="I can have Japanese breakfast EVERY DAY for the rest of my life."
             />
@@ -172,7 +182,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/venicebeach.jpeg"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(7)"
               alt="One of my favourite spots in LA. The houses here are dreamy."
             />
@@ -181,8 +191,8 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/ninhbinh.jpeg"
-              style="width: 100%"
-              onclick="currentSlide(10)"
+              style="width: 120%"
+              onclick="currentSlide(12)"
               alt="One sweaty hike up a mountain later and this is the reward: views over Ninh Binh."
             />
           </div>
@@ -190,7 +200,7 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/osakanight.jpg"
-              style="width: 100%"
+              style="width: 120%"
               onclick="currentSlide(7)"
               alt="Osaka at night offers vibrant night views, exiting entertainment and top dining."
             />
@@ -199,11 +209,29 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/osakasushi.jpg"
-              style="width: 100%"
-              onclick="currentSlide(10)"
+              style="width: 120%"
+              onclick="currentSlide(12)"
               alt="These fresh tuna rolls from a market in Osaka are out of this world."
             />
           </div>
+          <div class="column">
+          <img
+            class="demo cursor"
+            src="/assets/slideshow/sanfran.jpeg"
+            style="width: 120%"
+            onclick="currentSlide(12)"
+            alt="'Everywhere you look, everywhere you go...' The Painted Ladies in San Francisco."
+          />
+        </div>
+        <div class="column">
+        <img
+          class="demo cursor"
+          src="/assets/slideshow/studioghibli.jpg"
+          style="width: 120%"
+          onclick="currentSlide(12)"
+          alt="Couldn't snag tickets to Studio Ghibli in Tokyo, but running into Totoro outside did softened the blow."
+        />
+      </div>
         </div>
       </div>
   `;
