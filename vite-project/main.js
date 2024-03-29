@@ -183,7 +183,7 @@ galleryLink.addEventListener("click", function (event) {
               src="/assets/slideshow/venicebeach.jpeg"
               style="width: 50%"
               onclick="currentSlide(7)"
-              alt="One of my favourite spots in LA. The houses here are dreamy."
+              alt="One of my favourite spots in LA. The houses here are so dreamy."
             />
           </div>
           <div class="column">
