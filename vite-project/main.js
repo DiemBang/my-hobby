@@ -127,7 +127,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/brooklyn.jpeg"
-              style="width: 50%"
               onclick="currentSlide(1)"
               alt="Hello (Manhattan) from the other side!"
             />
@@ -136,7 +135,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotostreetfood.jpg"
-              style="width: 50%"
               onclick="currentSlide(2)"
               alt="Street food in Japan is a must. These takoyakis were indulged in Kyoto."
             />
@@ -145,7 +143,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/naradeers.jpg"
-              style="width: 50%"
               onclick="currentSlide(3)"
               alt="Nara Park is home to hundreds of freely roaming deer."
             />
@@ -154,7 +151,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kinosakicrab.JPG"
-              style="width: 50%"
               onclick="currentSlide(4)"
               alt="The famous hot spring town Kinosaki in west Japan is also known for the crabs."
             />
@@ -163,7 +159,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotoautumn.JPG"
-              style="width: 50%"
               onclick="currentSlide(5)"
               alt="Autumn in Kyoto is magical. "
             />
@@ -172,7 +167,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotobreakfast.JPG"
-              style="width: 50%"
               onclick="currentSlide(6)"
               alt="I can have Japanese breakfast EVERY DAY for the rest of my life."
             />
@@ -181,7 +175,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/venicebeach.jpeg"
-              style="width: 50%"
               onclick="currentSlide(7)"
               alt="One of my favourite spots in LA. The houses here are so dreamy."
             />
@@ -190,7 +183,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/ninhbinh.jpeg"
-              style="width: 50%"
               onclick="currentSlide(8)"
               alt="One sweaty hike up a mountain later and this is the reward: views over Ninh Binh."
             />
@@ -199,7 +191,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/osakanight.jpg"
-              style="width: 50%"
               onclick="currentSlide(9)"
               alt="Osaka at night offers vibrant night views, exiting entertainment and top dining."
             />
@@ -208,7 +199,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/osakasushi.jpg"
-              style="width: 50%"
               onclick="currentSlide(10)"
               alt="These fresh tuna rolls from a market in Osaka are out of this world."
             />
@@ -217,7 +207,6 @@ galleryLink.addEventListener("click", function (event) {
           <img
             class="demo cursor"
             src="/assets/slideshow/sanfran.jpeg"
-            style="width: 50%"
             onclick="currentSlide(11)"
             alt="'Everywhere you look, everywhere you go...' The Painted Ladies in San Francisco."
           />
@@ -226,7 +215,6 @@ galleryLink.addEventListener("click", function (event) {
         <img
           class="demo cursor"
           src="/assets/slideshow/studioghibli.jpg"
-          style="width: 50%"
           onclick="currentSlide(12)"
           alt="Couldn't snag tickets to Studio Ghibli in Tokyo, but running into Totoro outside did softened the blow."
         />

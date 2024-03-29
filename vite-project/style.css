@@ -64,6 +64,20 @@ footer {
 }
 
 /* Slideshow */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column img {
+  width: 80%;
+}
+
+/* Columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
 
 img {
   display: block;
@@ -138,12 +152,6 @@ img {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
