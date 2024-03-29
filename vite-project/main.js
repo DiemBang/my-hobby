@@ -57,39 +57,44 @@ galleryLink.addEventListener("click", function (event) {
 
       <div class="container">
         <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
+          <div class="numbertext">1 / 8</div>
           <img src="/assets/slideshow/brooklyn.jpeg" />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
+          <div class="numbertext">2 / 8</div>
           <img src="/assets/slideshow/kyotostreetfood.jpg" />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
+          <div class="numbertext">3 / 8</div>
           <img src="/assets/slideshow/naradeers.jpg"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
+          <div class="numbertext">4 / 8</div>
           <img src="/assets/slideshow/kinosakicrab.JPG"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
+          <div class="numbertext">5 / 8</div>
           <img src="/assets/slideshow/kyotoautumn.JPG"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
+          <div class="numbertext">6 / 8</div>
           <img src="/assets/slideshow/kyotobreakfast.JPG"  />
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">7 / 7</div>
+          <div class="numbertext">7 / 8</div>
           <img src="/assets/slideshow/venicebeach.jpeg"  />
         </div>
+
+        <div class="mySlides">
+        <div class="numbertext">8 / 8</div>
+        <img src="/assets/slideshow/ninhbinh.jpeg"  />
+      </div>
 
         <a class="prev">❮</a>
         <a class="next">❯</a>
@@ -158,8 +163,17 @@ galleryLink.addEventListener("click", function (event) {
               class="demo cursor"
               src="/assets/slideshow/venicebeach.jpeg"
               style="width: 100%"
-              onclick="currentSlide(6)"
+              onclick="currentSlide(7)"
               alt="One of my favourite spots in LA. The houses here are dreamy."
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="/assets/slideshow/ninhbinh.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(8)"
+              alt="One sweaty hike up a mountain later and this is the reward: views over Ninh Binh."
             />
           </div>
         </div>
