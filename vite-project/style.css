@@ -70,10 +70,6 @@ footer {
   z-index: 10;
 }
 
-.column img {
-  width: 80%;
-}
-
 /* Columns side by side */
 .column {
   float: left;
@@ -157,6 +153,8 @@ img {
 
 /* Add a transparency effect for thumnbail images */
 .demo {
+  width: 8em;
+  height: 5em;
   opacity: 0.6;
 }
 
