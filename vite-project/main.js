@@ -127,7 +127,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/brooklyn.jpeg"
-              onclick="currentSlide(1)"
               alt="Hello (Manhattan) from the other side!"
             />
           </div>
@@ -135,7 +134,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotostreetfood.jpg"
-              onclick="currentSlide(2)"
               alt="Street food in Japan is a must. These takoyakis were indulged in Kyoto."
             />
           </div>
@@ -143,7 +141,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/naradeers.jpg"
-              onclick="currentSlide(3)"
               alt="Nara Park is home to hundreds of freely roaming deer."
             />
           </div>
@@ -151,7 +148,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kinosakicrab.JPG"
-              onclick="currentSlide(4)"
               alt="The famous hot spring town Kinosaki in west Japan is also known for the crabs."
             />
           </div>
@@ -159,7 +155,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotoautumn.JPG"
-              onclick="currentSlide(5)"
               alt="Autumn in Kyoto is magical. "
             />
           </div>
@@ -167,7 +162,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/kyotobreakfast.JPG"
-              onclick="currentSlide(6)"
               alt="I can have Japanese breakfast EVERY DAY for the rest of my life."
             />
           </div>
@@ -175,7 +169,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/venicebeach.jpeg"
-              onclick="currentSlide(7)"
               alt="One of my favourite spots in LA. The houses here are so dreamy."
             />
           </div>
@@ -183,7 +176,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/ninhbinh.jpeg"
-              onclick="currentSlide(8)"
               alt="One sweaty hike up a mountain later and this is the reward: views over Ninh Binh."
             />
           </div>
@@ -191,7 +183,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/osakanight.jpg"
-              onclick="currentSlide(9)"
               alt="Osaka at night offers vibrant night views, exiting entertainment and top dining."
             />
           </div>
@@ -199,7 +190,6 @@ galleryLink.addEventListener("click", function (event) {
             <img
               class="demo cursor"
               src="/assets/slideshow/osakasushi.jpg"
-              onclick="currentSlide(10)"
               alt="These fresh tuna rolls from a market in Osaka are out of this world."
             />
           </div>
@@ -207,7 +197,6 @@ galleryLink.addEventListener("click", function (event) {
           <img
             class="demo cursor"
             src="/assets/slideshow/sanfran.jpeg"
-            onclick="currentSlide(11)"
             alt="'Everywhere you look, everywhere you go...' The Painted Ladies in San Francisco."
           />
         </div>
@@ -215,7 +204,6 @@ galleryLink.addEventListener("click", function (event) {
         <img
           class="demo cursor"
           src="/assets/slideshow/studioghibli.jpg"
-          onclick="currentSlide(12)"
           alt="Couldn't snag tickets to Studio Ghibli in Tokyo, but running into Totoro outside did softened the blow."
         />
       </div>
@@ -224,7 +212,19 @@ galleryLink.addEventListener("click", function (event) {
   `;
   showSlides(1);
   addNextAndPreviousEventListeners();
+  addImageEventListeners();
 });
+
+function addImageEventListeners() {
+  let images = document.getElementsByClassName("demo cursor");
+  for (let i = 0; i < images.length; i++) {
+    images[i].addEventListener("click", function (event) {
+      event.preventDefault();
+      console.log("click click");
+      currentSlide(i + 1);
+    });
+  }
+}
 
 let slideIndex = 1;
 showSlides(slideIndex);
