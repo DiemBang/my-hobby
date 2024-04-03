@@ -51,7 +51,7 @@ body {
 .intro {
   width: 50%;
   padding: 5px;
-  text-align: justify;
+  text-align: left;
 }
 
 footer {
@@ -67,6 +67,7 @@ footer {
 .row {
   display: flex;
   flex-wrap: wrap;
+  z-index: 10;
 }
 
 .column img {
